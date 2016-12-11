@@ -1,7 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Gradle template
-.gradle
+.gradle/
 build/
+.settings/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -29,3 +30,12 @@ gradle-app.setting
 hs_err_pid*
 
 /.idea/
+/bin/
+
+
+# Eclipse metadata
+.classpath
+.project
+
+# Avoid publishing private keys
+src/main/resources/application.properties
